@@ -27,6 +27,12 @@ body{
     cursor: pointer;
 
 }
+.section-title{
+    font-size: 2.875rem;
+    font-weight: 700;
+    margin-bottom: 80px;
+    text-align: center;
+}
 
 /* Nav-bar-style */
 .nav-icon-text{
@@ -114,6 +120,109 @@ body{
     width: 100%;
 }
 
+/* Standard-Curriculum */
+main{
+    background-image: url(assets/bg.png);
+}
+.Standard-Curriculum{
+    margin: 0 auto;
+}
+.Standard-Curriculum-container{
+    margin-top: 60px;
+    margin: 0 auto;
+    
+}
+
+.standard-curriculum-card-container{
+    max-width: 1160px;
+    max-height: 481.5px;
+    margin: 0 auto;
+    gap: 1.76rem;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+.card-1{
+
+    max-width: 367.8px;
+    max-height: 476.78px;
+    border-radius: 18.86px;
+    border: 0.94px solid rgb(222, 245, 255);
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding-top: 4rem ;
+}
+
+.card-2{
+
+    max-width: 367.8px;
+    max-height: 476.78px;
+    border-radius: 18.86px;
+    border: 0.94px solid rgb(255, 244, 220);;
+    box-shadow:  inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding-top: 4rem ;
+}
+
+.card-3{
+
+    max-width: 367.8px;
+    max-height: 476.78px;
+    border-radius: 18.86px;
+    border: 0.94px solid rgb(242, 232, 255);
+    box-shadow:  inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    padding-top: 4rem ;
+}
+
+.card-title{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 1.53rem;
+    font-weight: 700;
+    line-height: 1.89rem;
+    margin-bottom: 2rem;
+}
+.card-sub-title{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    margin-bottom: 2.45rem;
+}
+.card-1-btn {
+    background-color: white;
+    color: rgb(100, 200, 255) ;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 3.65rem;
+}
+.card-2-btn{
+    background-color: white;
+    color: rgb(240, 170, 0) ;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 3.65rem;
+
+}
+.card-3-btn{
+    background-color: white;
+    color: rgb(135, 0, 255) ;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 3.65rem;
+
+}
 @media screen and (max-width:576px) {
     .nav-bar-pc{
         display: none;
@@ -134,5 +243,11 @@ body{
         height: 725px;
         text-align: center;
         margin-top: 400px;
+    }
+    .Standard-Curriculum{
+        margin-top: 20px;
+    }
+    .standard-curriculum-card-container{
+        flex-direction: column;
     }
 }
