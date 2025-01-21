@@ -14,6 +14,19 @@ body{
 .display-flex{
     display: flex;
 }
+.primary-btn{
+    width: 197px;
+    height: 50px;
+    background-color: rgb(254, 163, 1);
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
 
 /* Nav-bar-style */
 .nav-icon-text{
@@ -55,17 +68,7 @@ body{
 #nav-admission{
     color: rgb(93, 88, 239);
 }
-.nav-btn{
-    width: 197px;
-    height: 50px;
-    background-color: rgb(254, 163, 1);
-    border: none;
-    border-radius: 12px;
-    font-weight: 600;
-    font-size: 1.25rem;
-    line-height: 1.8rem;
-    color: rgb(255, 255, 255);
-}
+
 .nav-responsive{
     display: none;
 }
@@ -75,6 +78,42 @@ body{
     
 }
 /* Responsive part */
+
+
+/* Hero-Section */
+.hero{
+    max-width: 1158.61px;
+    max-height: 575px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-title{
+    font-size: 2.82rem;
+    margin-bottom: 24px;
+    color: rgb(17, 17, 17);
+
+}
+.hero-sub-title{
+    font-size: 1.25rem;
+    margin-bottom: 12px;
+    color: rgb(17, 17, 17);
+}
+.hero-btn{
+    color: rgb(255, 255, 255);
+    background-color: rgb(17, 17, 17);
+}
+.clr-orange{
+    color: rgb(254, 163, 1);
+}
+.clr-skyblue{
+    color: rgb(1, 172, 253);
+}
+.hero-img-container>img{
+    width: 100%;
+}
+
 @media screen and (max-width:576px) {
     .nav-bar-pc{
         display: none;
@@ -88,5 +127,12 @@ body{
     }
     .nav-hr{
         display: block;
+    }
+    .hero{
+        flex-direction: column-reverse;
+        width: 357px;
+        height: 725px;
+        text-align: center;
+        margin-top: 400px;
     }
 }
