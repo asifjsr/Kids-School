@@ -33,6 +33,9 @@ body{
     margin-bottom: 80px;
     text-align: center;
 }
+.margin-top-60{
+    margin-top: 60px;
+}
 
 /* Nav-bar-style */
 .nav-icon-text{
@@ -156,7 +159,7 @@ main{
     border: 0.94px solid rgb(222, 245, 255);
     box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-    padding-top: 4rem ;
+    padding: 4rem ;
 }
 
 .card-2{
@@ -167,7 +170,7 @@ main{
     border: 0.94px solid rgb(255, 244, 220);;
     box-shadow:  inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-    padding-top: 4rem ;
+    padding: 4rem ;
 }
 
 .card-3{
@@ -178,7 +181,7 @@ main{
     border: 0.94px solid rgb(242, 232, 255);
     box-shadow:  inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
     background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
-    padding-top: 4rem ;
+    padding: 4rem ;
 }
 
 .card-title{
@@ -223,6 +226,87 @@ main{
     margin-bottom: 3.65rem;
 
 }
+
+.arrow-btn{
+    margin-top: 80px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+.arrow-btn-left{
+    width: 60px;
+    height: 60px;
+    border: none;
+    background-color: rgb(254, 163, 1);
+    border-radius: 30px;
+
+}
+.hr-line{
+    
+    border: 1px dashed grey;
+     
+}
+
+/* our stories Section */
+.our-stories{
+    background: linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+}
+.story-card-container{
+    display: grid;
+grid-template-columns: repeat(2,1fr);
+}
+.story-card-01{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    grid-area: 1;
+}
+.story-card-02{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    grid-area: 2;
+}
+.story-card-03{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    grid-area: 3;
+}
+.story-card-04{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    grid-area: 4;
+}
+.story-card-05{
+    width: 290.69px;
+    height: 301.61px;
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    grid-area: 5;
+}
+
+
+
+.story-img>img {
+    border-radius: 16px 16px 0px 0px;
+
+}
+.story-card-title{
+    font-size: 1rem;
+    padding-left: 2.3rem;
+    padding-right: 2.35rem;
+}
+
+
+
+/* Resposive  */
 @media screen and (max-width:576px) {
     .nav-bar-pc{
         display: none;
@@ -249,5 +333,11 @@ main{
     }
     .standard-curriculum-card-container{
         flex-direction: column;
+    }
+    .hr-line{
+        display: none;
+    }
+    .arrow-btn{
+        display: none;
     }
 }
